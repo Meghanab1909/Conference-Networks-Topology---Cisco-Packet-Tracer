@@ -71,7 +71,9 @@
  3. Click on each device and reset by clicking on static and clicking on dhcp.
     Note: DHCP is on a lease so if at all the device is set to DHCP and then reset, type _dhcp /renew_ on command prompt to renew the DHCP configuration.
 4. Carry out packet transmission, ping to check end-to-end connectivity.
-5. To check VPN, on any of the client end-device type *https://192.168.1.250*, the VPN portal will open after which enter vpnguest (as username) and conf@123 (as password).
+5. Before checking the vpn portal, in this topology the proxy server is dhcp configured so make sure to update the server ip in bookmark manager and user manager in ASA0 Config Tab. 
+6. To check VPN, on any of the client end-device type *https://192.168.1.250*, the VPN portal will open after which enter vpnguest (as username) and conf@123 (as password).
    The clientless VPN portal will open and there will be *server* link on clicking it, it opens up the server files (like index.html, image.html, helloworld.html).
+   
 
 
