@@ -76,8 +76,14 @@
 4. Carry out packet transmission, ping to check end-to-end connectivity.
 5. Before checking the vpn portal, the bookmark manager and user manager settings are as follows:
    <br>
-   - Bookmark Manager Settings: <br><b>Bookmark Title: Conference_Server ; URL: https://192.168.1.100.</b><br>
-   - User Manager Settings:<br><b>Username: vpnguest ; Bookmark: Conference_Server (Selected from dropdown list) ; Profile Name: VPNUSER ; Group Policy: VPNGROUP</b>
+   - Bookmark Manager Settings: <br>
+      - Bookmark Title: Conference_Server
+      - URL: https://192.168.1.100<br>
+   - User Manager Settings:<br>
+      - Username: vpnguest
+      - Bookmark: Conference_Server (Selected from dropdown list)
+      - Profile Name: VPNUSER
+      - Group Policy: VPNGROUP
 7. To check VPN, on any of the client end-device type *https://192.168.1.250*, the VPN portal will open after which enter vpnguest (as username) and conf@123 (as password).
    The clientless VPN portal will open and there will be a link named *Conference_server* on clicking it, it opens up the server files (like index.html, conference_dashboard.html, image.html, helloworld.html). The index.html has a hyperlink directing the users to the Conference Dashboard.
 
