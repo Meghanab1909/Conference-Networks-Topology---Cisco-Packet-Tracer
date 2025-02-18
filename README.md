@@ -84,7 +84,7 @@
       - Bookmark: Conference_Server (Selected from dropdown list)
       - Profile Name: VPNUSER
       - Group Policy: VPNGROUP
-7. To check VPN, on any of the client end-device type <b>https://192.168.1.250</b>, the VPN portal will open after which enter <b>vpnguest (as username)</b> and <b>conf@123 (as password)</b>.
+7. To check VPN, on any of the client end-device type https://192.168.1.250, the VPN portal will open after which enter <b>vpnguest (as username)</b> and <b>conf@123 (as password)</b>.
    The clientless VPN portal will open and there will be a link named <b>Conference_server</b> on clicking it, it opens up the server files (like index.html, conference_dashboard.html, image.html, helloworld.html). The index.html has a hyperlink named <b>Conference Dashboard</b> directing the users to the Conference Portal.
 
 
