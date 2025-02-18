@@ -72,7 +72,7 @@
  1. Download the file and wait for the connection arrows to turn to green.
  2. Once the arrows turn green, hover over the end-devices to check if the IP Address, Default Gateway and DNS Server is set. If its not move to step 3 else move to step 4.
  3. Click on each device and reset by clicking on static and clicking on dhcp.
-    <br>Note: DHCP is on a lease so if at all the device is set to DHCP and then reset, type _dhcp /renew_ on command prompt to renew the DHCP configuration. Make sure the IP address gets set to an IP starting with 192.168.1 (instead of starting 169. . .)
+    <br>Note: DHCP is on a lease so if at all the device is set to DHCP and then reset, type <b>dhcp /renew</b> on command prompt to renew the DHCP configuration. Make sure the IP address gets set to an IP starting with 192.168.1 (instead of starting 169. . .)
 4. Carry out packet transmission, ping to check end-to-end connectivity.
 5. Before checking the vpn portal, the bookmark manager and user manager settings are as follows:
    <br>
@@ -84,8 +84,8 @@
       - Bookmark: Conference_Server (Selected from dropdown list)
       - Profile Name: VPNUSER
       - Group Policy: VPNGROUP
-7. To check VPN, on any of the client end-device type *https://192.168.1.250*, the VPN portal will open after which enter vpnguest (as username) and conf@123 (as password).
-   The clientless VPN portal will open and there will be a link named *Conference_server* on clicking it, it opens up the server files (like index.html, conference_dashboard.html, image.html, helloworld.html). The index.html has a hyperlink directing the users to the Conference Dashboard.
+7. To check VPN, on any of the client end-device type <b>https://192.168.1.250</b>, the VPN portal will open after which enter <b>vpnguest (as username)</b> and <b>conf@123 (as password)</b>.
+   The clientless VPN portal will open and there will be a link named <b>Conference_server</b> on clicking it, it opens up the server files (like index.html, conference_dashboard.html, image.html, helloworld.html). The index.html has a hyperlink named <b>Conference Dashboard</b>directing the users to the Conference Portal.
 
 
    
