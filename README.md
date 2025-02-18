@@ -71,7 +71,7 @@
  1. Download the file and wait for the connection arrows to turn to green.
  2. Once the arrows turn green, hover over the end-devices to check if the IP Address, Default Gateway and DNS Server is set. If its not move to step 3 else move to step 4.
  3. Click on each device and reset by clicking on static and clicking on dhcp.
-    Note: DHCP is on a lease so if at all the device is set to DHCP and then reset, type _dhcp /renew_ on command prompt to renew the DHCP configuration.
+    <br>Note: DHCP is on a lease so if at all the device is set to DHCP and then reset, type _dhcp /renew_ on command prompt to renew the DHCP configuration. Make sure the IP address gets set to an IP starting with 192.168.1 (instead of starting 169. . .)
 4. Carry out packet transmission, ping to check end-to-end connectivity.
 5. Before checking the vpn portal, in this topology the proxy server is dhcp configured so make sure to update the server ip in bookmark manager and user manager in ASA0 Config Tab.
    <br>
